@@ -13,8 +13,8 @@ const TabBarItem = (props) => {
         source={props.iconPath}
         resizeMode="contain"
         style={{
-          width: 25,
-          height: 25,
+          width: 27,
+          height: 27,
           // tintColor: "#94E1E3",
           tintColor: props.focused ? "#8DC2D9" : "#94E1E3",
         }}
